@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>
+		Privacy++
+	</title>
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<script src="http.js"></script>
+	<style type="text/css">
+		.warning {
+			position:absolute;
+			margin:auto;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			width:800px;
+			height: 400px;
+			background-color: #E3E2DF;
+			border-radius: 3px;
+		}
+		.warning_img {
+			width: 65px;
+			height: 65px;
+		}
+		.font {
+			font-family: 'Montserrat';
+			font-size: 40px
+		}
+		.font_p {
+			font-family: 'Montserrat';
+			padding-left: 5px;
+		}
+		.button {
+			font-family: 'Montserrat';
+			color: #e76e76;
+			background-color: #E3E2DF;
+			border: 2px solid #e76e76;
+			cursor:pointer;
+			text-align: center;
+			font-size: 22px;
+			border-radius: 3px;
+			vertical-align: middle;
+			position:absolute;
+			right:175;
+			bottom:10;
+		}
+	</style>
+</head>
+<body style="background-color: #E3E2DF;">
+	<div class="warning">
+		<img class="warning_img" src="images/insecure_page.png">
+		<h2 class="font">Your Connection is not private</h2>
+		<p class="font_p">The website you're trying to access is not available in https://</p>
+		<button id="back_to_safety" class="button" onclick="redirect()">Back To Safety</button>
+	</div>
+</body>
+</html>
