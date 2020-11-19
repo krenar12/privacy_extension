@@ -1,0 +1,38 @@
+{
+	"name": "Privacy app v1.0",
+	
+  "version": "1.0",
+	
+  "description": "Privacy++",
+	
+  "permissions": [
+    "webRequest", 
+    "declarativeContent", 
+    "activeTab", 
+    "webRequestBlocking", 
+    "tabs", 
+    "storage"
+  ],
+	
+  "options_page": "options.html",
+	
+  "content_scripts":[
+	  {
+	    "matches":["http://*/*"],
+      "exclude_globs":["*admin*"],
+	    "js": ["http.js"]
+	  }
+	],
+	
+  "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+
+  "browser_action": {
+    "default_popup": "popup.html"
+  
+  },
+
+  "manifest_version": 2
+}
