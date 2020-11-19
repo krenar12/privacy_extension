@@ -1,4 +1,4 @@
-# privacy_extension
+# Privacy++
 Group project for Software Technology. A web browser extension.
 
 Features:
@@ -9,6 +9,9 @@ URL un-shortener
 
 Group Members:
   Arnav Amar
+  
   Florian Hijdini
+  
   Krenar Kepuska
+  
   Mahammad Mammadli
