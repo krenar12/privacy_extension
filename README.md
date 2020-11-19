@@ -8,7 +8,7 @@ Password Manager
 URL un-shortener
 
 Group Members:
-Arnav Amar
-Florian Hijdini
-Krenar Kepuska
-Mahammad Mammadli
+  Arnav Amar
+  Florian Hijdini
+  Krenar Kepuska
+  Mahammad Mammadli
